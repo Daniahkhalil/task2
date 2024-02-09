@@ -1,0 +1,78 @@
+.container{
+    background-color: rgb(80, 182, 246);
+    width: 300px;
+    height: 300px;
+}
+.basic{
+    position: relative;
+    top: 70px;
+    margin: auto;
+    background-color: white;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 6px;
+
+
+}
+input{
+    background-color: gainsboro;
+
+border-radius: 10px;
+border: none;
+width:85%;
+height: 20%; 
+
+
+}
+button{
+
+    background-color: rgb(80, 182, 246);
+    border: none;
+    border-radius: 15px;
+}
+p{
+    padding-left: 60px;
+  
+}
+button,input,small{
+    position:  relative;
+    left: 13px;
+    margin:5px;
+    height: 30%;
+ 
+
+}
+button{
+     width:88%;
+ 
+
+}
+form{
+    position: relative;
+    top: -22px;
+    right:5px;
+}
+small , p{
+    color: gainsboro;
+
+}
+small{
+    position: relative;
+    left: 40px;
+    font-size: 10px;
+    top: -5px;
+}
+img{
+    width: 20%;
+    height:18%;
+    left: 76px;
+    position: relative;
+    border-radius: 50%;
+}
+p{
+    position: relative;
+    top: -10px;
+}
